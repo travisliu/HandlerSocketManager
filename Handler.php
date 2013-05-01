@@ -6,12 +6,12 @@ require 'HandlerSocketManager.php';
  */
 class Handler {
 
-	static private $dataBasePool = array();
-
-	/**
-	 * 資料庫名稱
-	 * @var String
-	 */
+    static private $dataBasePool = array();
+    
+    /**
+     * 資料庫名稱
+     * @var String
+     */
     private $dataBase;
     /**
      * 資料表名稱
