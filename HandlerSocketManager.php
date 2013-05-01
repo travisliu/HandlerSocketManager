@@ -6,10 +6,10 @@
  */
 class HandlerSocketManager extends HandlerSocket {
 
-	/**
-	 * 跟資料庫連線的IP 列表
-	 * @var array
-	 */
+    /**
+     * 跟資料庫連線的IP 列表
+     * @var array
+     */
     private $cluster;
     /**
      * 讀取與寫入使用的port r:read, w:write
